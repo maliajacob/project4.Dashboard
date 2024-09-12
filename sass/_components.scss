@@ -34,8 +34,17 @@ img {
     font-family: $arial;
 }
 .supacoolBorder {
-border: 2px #ededed solid;
+    border: 2px #ededed solid;
 }
 .iconMargin {
-padding: 8px 12px 8px 0px;
+    padding: 8px 12px 8px 0px;
 }
+.subheadingFont {
+    font-size: 25px;
+    font-weight: 300;
+}
+.subtitleFont {
+    font-size: 16px;
+    font-weight: 300;
+    color: #888888;
+  }
