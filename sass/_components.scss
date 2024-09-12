@@ -8,7 +8,6 @@
     display: flex;
     padding: 4px;
     border-radius: 50px;
-    width: -moz-fit-content;
     width: fit-content;
 }
 img {
@@ -32,10 +31,11 @@ img {
     display: flex;
     border-radius: 50px;
     width: fit-content;
-  }
-  .supacoolBorder {
-    border: 2px #ededed solid;
-  }
-  .iconMargin {
-    padding: 8px 12px 8px 0px;
-  }
+    font-family: $arial;
+}
+.supacoolBorder {
+border: 2px #ededed solid;
+}
+.iconMargin {
+padding: 8px 12px 8px 0px;
+}
