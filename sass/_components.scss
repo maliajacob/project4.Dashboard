@@ -1,1 +1,41 @@
-// REUSABLE buttons, dropdown, cards, (modal, carousel/slider)
+// REUSABLE buttons, dropdown?, cards
+.flex {
+    align-items: center;
+    display: flex;
+}
+.background2Frame {
+    background-color: #f3ecda;
+    display: flex;
+    padding: 4px;
+    border-radius: 50px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+img {
+    max-height: 25px;
+    padding: 5.5px;
+    background-color: rgba(114, 110, 96, 0.1);
+    border-radius: 100%;
+}
+.gap {
+    gap: 4px;
+}
+#whiteFrame {
+    background-color: white;
+    border-radius: 50px;
+    min-height: 45px;
+}
+.whiteButton {
+    padding: 13px;
+    font-size: 14px;
+    background-color: #FFF;
+    display: flex;
+    border-radius: 50px;
+    width: fit-content;
+  }
+  .supacoolBorder {
+    border: 2px #ededed solid;
+  }
+  .iconMargin {
+    padding: 8px 12px 8px 0px;
+  }

@@ -1,1 +1,62 @@
 // header, footer, sidebar, navbar, container, grid?no...flex
+body {
+    margin: 0px;
+    background-image: linear-gradient(to bottom, #dfd5bc 0%, #dfd5bc 50%, #f3ecda 50%, #f3ecda 100%);
+    height: 1237px;
+}
+.navbar {
+    position: sticky;
+    justify-content: space-between;
+    background-color: #dfd5bc;
+    padding: 20px 20px 30px 20px;
+    top: 0px;
+    z-index: 30;
+    .logoCentering {
+    margin: 0px 127px 0px 0px;
+  }
+  .logoFont {
+    font-weight: 900;
+    padding: 0px 8px;
+    font-family: $arial;
+  }
+  .initials {
+    background-color: #cdf765;
+    padding: 7px;
+    border-radius: 100%;
+  }
+  .open-sans-bold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding: 0px 10px;
+  }
+  .profile {
+    width: 40px;
+    padding: 0px;
+    max-height: 40px;
+    border-style: solid white;
+  }
+  .button {
+    background-color: #ece3cd;
+    border-radius: 100%;
+    padding: 10px;
+    color: #bc9d6e;
+  }
+  .blackButton {
+    background-color: #f3ecda;
+    border-radius: 100%;
+    padding: 10px;
+    color: black;
+  }
+  .button:hover,
+  .blackButton:hover {
+  opacity: 50%;
+}
+}
