@@ -53,7 +53,7 @@ img {
   font-weight: 300;
 }
 
-.subtitleFont {
+.subtitleFont, .datasourcesBox p, .myChatbot p {
   font-size: 16px;
   font-weight: 300;
   color: #888888;
@@ -218,7 +218,7 @@ body {
 }
 .dataCardContainer .bottomPaddingP {
   padding-bottom: 15px;
-  color: grey;
+  color: #3b3b3b;
   font-size: 1rem;
 }
 .dataCardContainer .bottomCardSection {
@@ -300,7 +300,7 @@ body {
   padding: 25px 20px 0px 20px;
   margin: 0px 0px 15px 0px;
 }
-.datasourcesBox .pmargin {
+.datasourcesBox p {
   padding: 0px 0px 0px 20px;
   margin: 0px;
 }/*# sourceMappingURL=main.css.map */
