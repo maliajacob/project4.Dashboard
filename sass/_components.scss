@@ -4,11 +4,19 @@
     display: flex;
 }
 .background2Frame {
-    background-color: #f3ecda;
-    display: flex;
+    background-color: #ece3cd;
     padding: 4px;
     border-radius: 50px;
     width: fit-content;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    color: #bc9d6e;
+    min-width: 140px;
+}
+
+.background2Frame:hover {
+    opacity: 50%;
 }
 img {
     max-height: 25px;
@@ -19,10 +27,10 @@ img {
 .gap {
     gap: 4px;
 }
-#whiteFrame {
+#whiteFrame, #whiteFrame > span {
     background-color: white;
-    border-radius: 50px;
-    min-height: 45px;
+    color: black;
+    
 }
 .whiteButton {
     padding: 13px;
@@ -47,4 +55,8 @@ img {
     font-size: 16px;
     font-weight: 300;
     color: #888888;
+  }
+  hr {
+    opacity: 40%;
+    margin: 0px 15px 0px 0px;
   }

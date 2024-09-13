@@ -4,12 +4,20 @@
 }
 
 .background2Frame {
-  background-color: #f3ecda;
-  display: flex;
+  background-color: #ece3cd;
   padding: 4px;
   border-radius: 50px;
   width: -moz-fit-content;
   width: fit-content;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  color: #bc9d6e;
+  min-width: 140px;
+}
+
+.background2Frame:hover {
+  opacity: 50%;
 }
 
 img {
@@ -23,10 +31,9 @@ img {
   gap: 4px;
 }
 
-#whiteFrame {
+#whiteFrame, #whiteFrame > span {
   background-color: white;
-  border-radius: 50px;
-  min-height: 45px;
+  color: black;
 }
 
 .whiteButton {
@@ -59,65 +66,77 @@ img {
   color: #888888;
 }
 
-body {
-  margin: 0px;
-  background-image: linear-gradient(to bottom, #dfd5bc 0%, #dfd5bc 50%, #f3ecda 50%, #f3ecda 100%);
-  height: 1237px;
+hr {
+  opacity: 40%;
+  margin: 0px 15px 0px 0px;
 }
 
-.navbar {
-  position: sticky;
-  justify-content: space-between;
-  background-color: #dfd5bc;
-  padding: 20px 20px 30px 20px;
-  top: 0px;
-  z-index: 30;
+body {
+  background-color: #f3ecda;
 }
-.navbar .logoCentering {
-  margin: 0px 127px 0px 0px;
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding: 20px;
 }
-.navbar .logoFont {
+.sidenav .logoCentering {
+  padding: 0px 18px;
+}
+.sidenav .logoFont {
   font-weight: 900;
   padding: 0px 8px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.navbar .initials {
+.sidenav .initials {
   background-color: #cdf765;
   padding: 7px;
   border-radius: 100%;
 }
-.navbar .open-sans-bold {
+.sidenav .open-sans-bold {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
-.navbar .open-sans {
+.sidenav .open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  padding: 0px 10px;
 }
-.navbar .button {
-  background-color: #ece3cd;
+.sidenav .button {
   border-radius: 100%;
   padding: 10px;
   color: #bc9d6e;
 }
-.navbar .blackButton {
-  background-color: #f3ecda;
+.sidenav .blackButton {
+  background-color: #dfd5bc;
   border-radius: 100%;
   padding: 10px;
+  margin: 10px;
   color: black;
 }
-.navbar .button:hover,
-.navbar .blackButton:hover {
+.sidenav .button:hover,
+.sidenav .blackButton:hover {
   opacity: 50%;
+}
+.sidenav .bottom {
+  bottom: 60px;
+  position: absolute;
 }
 
 .mainContentContainer {
-  padding: 0px 20px;
+  margin: 20px;
+  margin-left: 180px;
+  background-color: #dfd5bc;
+  border-radius: 20px;
+  padding: 20px;
 }
 .mainContentContainer .headingContainer {
   justify-content: space-between;
@@ -196,14 +215,13 @@ body {
 .dataCardContainer .dataCardData {
   padding-top: 15px;
   padding-left: 15px;
-  padding-right: 15px;
 }
 .dataCardContainer .topCardSection {
   height: 150px;
 }
 .dataCardContainer .dataCard {
   background-color: white;
-  height: 250px;
+  height: 225px;
   width: 33%;
   border-radius: 15px;
   margin: 0 auto;
@@ -231,9 +249,7 @@ body {
   padding: 10px;
   border-radius: 100%;
   border: 1px solid rgb(217, 217, 217);
-}
-.dataCardContainer hr {
-  opacity: 10%;
+  margin: 0px 10px;
 }
 
 .myChatbot {

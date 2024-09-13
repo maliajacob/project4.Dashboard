@@ -1,18 +1,18 @@
 // header, footer, sidebar, navbar, container, grid?no...flex
 body {
-    margin: 0px;
-    background-image: linear-gradient(to bottom, $background1 0%, $background1 50%, $background2 50%, $background2 100%);
-    height: 1237px;
+  background-color: #f3ecda;
 }
-.navbar {
-    position: sticky;
-    justify-content: space-between;
-    background-color: $background1;
-    padding: 20px 20px 30px 20px;
-    top: 0px;
-    z-index: 30;
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding: 20px;
     .logoCentering {
-    margin: 0px 127px 0px 0px;
+      padding: 0px 18px;
   }
   .logoFont {
     font-weight: 900;
@@ -35,27 +35,34 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    padding: 0px 10px;
   }
   .button {
-    background-color: $navbarButtonBeige;
     border-radius: 100%;
     padding: 10px;
     color: $navbarButtonBrown;
   }
   .blackButton {
-    background-color: $background2;
+    background-color: $background1;
     border-radius: 100%;
     padding: 10px;
+    margin: 10px;
     color: black;
   }
   .button:hover,
   .blackButton:hover {
     opacity: 50%;
   }
+  .bottom {
+    bottom: 60px;
+    position: absolute;
+}
 }
 .mainContentContainer {
-  padding: 0px 20px;
+  margin: 20px;
+  margin-left: 180px;
+  background-color: #dfd5bc ;
+  border-radius: 20px;
+  padding: 20px;
   .headingContainer {
     justify-content: space-between;
     padding: 5px 0px;
@@ -131,14 +138,13 @@ body {
   .dataCardData {
     padding-top: 15px;
     padding-left: 15px;
-    padding-right: 15px;
   }
   .topCardSection {
     height: 150px;
   }
   .dataCard {
     background-color: white;
-    height: 250px;
+    height: 225px;
     width: 33%;
     border-radius: 15px;
     margin: 0 auto;
@@ -166,9 +172,7 @@ body {
     padding: 10px;
     border-radius: 100%;
     border: 1px solid rgb(217, 217, 217);
-  }
-  hr {
-    opacity: 10%;
+    margin: 0px 10px;
   }
 }
 .myChatbot {
